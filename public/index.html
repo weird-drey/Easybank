@@ -3,14 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta charset="X-UA-Compatible" content="IE=edge">
-          <title>Easy Bank</title>
+        <title>Easy Bank</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="output.css" rel="stylesheet">
     </head>
-    <body class="w-screen h-screen">
-        <header></header>
-        <main></main>
+    <body class="w-screen h-screen overflow-x-hidden font-public ">
+        <header class="w-full h-auto px-32 py-6">
+            <nav class="w-full flex justify-between items-center">
+                <div>
+                    <img src="logo.svg" alt="logo">
+                </div>
+                <div class="w-1/4 text-gray-400 flex justify-between">
+                    <div class="w">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="w">
+                        <a href="#">About</a>
+                    </div>
+                    <div class="w">
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="w">
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="w">
+                        <a href="#">Careers</a>
+                    </div>
+                </div>
+                <div>
+                    <button class=" bg-gradient-to-r from-[#31cb7e] to-[#2cb9c9] py-3 px-10 rounded-full text-white font-bold">Request Invite</button>
+                </div>
+            </nav>
+        </header>
+        <main class="w-full h-auto ">
+            <section class="w-full flex justify-between pl-32 bg-[#fafafa]">
+                <div class="w-1/2">
+                    <h1 class="text-3xl">Next generation digital banking</h1>
+                </div>
+                <div class="w-1/2 bg-[url('./bg-intro-desktop.svg')] bg-cover bg-no-repeat bg-center overflow-hidden">
+                    <img src="image-mockups.png" alt="" class="w-full scale-y-125 scale-x-110 ml-28">
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>
